@@ -1,0 +1,110 @@
+application: gamershirts-1058
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /
+  static_files: index.html
+  upload: index.html
+
+- url: /index.html
+  static_files: index.html
+  upload: index.html
+
+- url: /contact.html
+  static_files: contact.html
+  upload: contact.html
+
+- url: /products.html
+  static_files: products.html
+  upload: products.html
+
+- url: /productcheck1.html
+  static_files: productcheck1.html
+  upload: productcheck1.html
+
+- url: /contactcomplete.html
+  static_files: contactcomplete.html
+  upload: contactcomplete.html
+
+- url: /productcheck2.html
+  static_files: productcheck2.html
+  upload: productcheck2.html
+
+- url: /productcheck3.html
+  static_files: productcheck3.html
+  upload: productcheck3.html
+
+- url: /productcheck4.html
+  static_files: productcheck4.html
+  upload: productcheck4.html
+
+- url: /productcheck5.html
+  static_files: productcheck5.html
+  upload: productcheck5.html
+
+- url: /productcheck6.html
+  static_files: productcheck6.html
+  upload: productcheck6.html
+
+- url: /index.css
+  static_files: index.css
+  upload: index.css
+
+- url: /index.css
+  static_files: index.css
+  upload: index.css
+
+- url: /insertimghere.png
+  static_files: insertimghere.png
+  upload: insertimghere.png
+
+- url: /logoplace.png
+  static_files: logoplace.png
+  upload: logoplace.png
+
+- url: /logoplace.gif
+  static_files: logoplace.gif
+  upload: logoplace.gif
+
+- url: /shirt1.jpg
+  static_files: shirt1.jpg
+  upload: shirt1.jpg
+
+- url: /shirt2.jpg
+  static_files: shirt2.jpg
+  upload: shirt2.jpg
+
+- url: /shirt3.jpg
+  static_files: shirt3.jpg
+  upload: shirt3.jpg
+
+- url: /shirt4.jpg
+  static_files: shirt4.jpg
+  upload: shirt4.jpg
+
+- url: /shirt5.jpg
+  static_files: shirt5.jpg
+  upload: shirt5.jpg
+
+- url: /shirt6.jpg
+  static_files: shirt6.jpg
+  upload: shirt6.jpg
+
+- url: /favicon.ico
+  static_files: favicon.ico
+  upload: favicon.ico
+
+- url: /legal.pdf
+  static_files: legal.pdf
+  upload: legal.pdf
+
+
+libraries:
+- name: webapp2
+  version: "2.5.2"
+
+- name: jinja2
+  version: latest

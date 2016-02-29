@@ -1,0 +1,107 @@
+html {
+width: 100%;
+overflow-y: scroll;
+}
+body{
+font-family: 'Roboto Condensed', sans-serif;
+margin:0px auto;
+background-color:white;
+color: black;
+width: 100%;
+}
+#menu ul{
+margin-left:4%;
+margin-right:4%;
+text-align: center;
+box-sizing: border-box;
+}
+#menu li {
+font-size: 2.8vw;
+list-style-type: none;
+color: black;
+display: block;
+float: right;
+background-color: deepskyblue;
+width: 20%;
+}
+
+#header h1{
+width: 100%;
+z-index: 10;
+background-color: deepskyblue;
+border-bottom: solid 1px black;
+margin-top: 0px;
+overflow: hidden;
+position: fixed;
+}
+
+#menu a{
+text-decoration: none; 
+color: white;
+display: block;
+width: 60px;
+}
+#menu a:hover {
+color:grey;
+}
+.logo{
+float: left;
+width: 6.5%;
+margin-top: -2.25%;
+padding: 1%;
+}
+#products a{
+text-decoration: none; 
+color: white;
+display: block;
+
+}
+#content{
+padding: 7.5% 10% 7.5% 10%;
+text-align: justify;
+position:absolute;
+top: 7.5%;
+left:0%;
+right:0%;
+bottom:0%;
+}
+#content p{
+padding-bottom:5%;
+border-bottom: groove 3px grey;
+}
+
+#products img{
+text-align: center;
+}
+#checkoutimgs p{
+text-align: center;
+background-color: white;
+text-color:white;
+}
+#checkoutimgs img{
+padding-top: 10%;
+width: 20%;
+}
+#products td:hover{
+background-color: orange;
+}
+#products td{
+background: deepskyblue;
+border: 10px solid white;
+padding: 2%;
+}
+#products img{
+width: 100%;
+}
+#products table{
+
+border: 10px solid white;
+padding: 3% 10% 7.5% 10%;
+text-align: center;
+margin-left: 0 auto;
+margin-right: 0 auto;
+border-collapse: separate;
+   border-spacing: 15vw; 
+position: absolute;
+background: white;
+}
